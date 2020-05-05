@@ -1,11 +1,18 @@
 # CarpenterLabPythonWorkshop
 This repository contains the materials for the summer 2020 Carpenter Lab Python Workshop.
+
 Carpenter Lab Python Workshop, Summer 2020
+
 Delivered via Zoom link.
+
 Times: Day time to time xm; 4 May to 21 August
+
 Facilitators:
+
 Jemelyn Baldisimo, John Whalen, and Ivan Lopez.  Contact ilopez@odu.edu, cell: 757-748-7922.  Office hours by appointment via Zoom.
+
 Description:
+
 This workshop will provide hands-on training to show how to use general computing tools to work more effectively on Carpenter Lab projects. It pulls together a broad range of powerful and flexible tools used for working with large or complex data sets. We will go over text file manipulation with regular expressions, programming in Python, and interaction with remote devices.  The workshop is organized into three parts. The first part will review regular expressions and provide extra sessions during the week for participants who request help with UNIX shell scripting and GitHub.  The second part will review Python programing.  In the third part we will collaborate on two projects that will deliver a benefit to our research efforts.  There are no costs associated with this workshop.
 
 Goals:
@@ -14,23 +21,36 @@ Goals:
 a)	Editing/modifying text files using regular expressions 
 b)	Basic bash scripting 
 c)	Python programming.
+
 Workshop materials:
+
 The websites for this workshop are:
+
 Carpenter Lab Python Git Repository.  It has all the course content, instructions, links, the book and super-fun-try-on-your-own exercises. Create a directory named clpw/ in your home directory and download this material there.
+
 Software Carpentry. https://software-carpentry.org/lessons/ This website provides free lessons about many aspects of computing for scientists.  The lessons can be performed as self-guided tutorials.  We will go over the following lessons:
+
 Programming with Python
+
 Plotting and Programming with Python
+
 These optional sessions will be delivered to participants on request for:
+
 UNIX Shell Modules 1-4 (1:45 hours)
+
 Git Modules 1-9 (2:00 hours)
+
 The book is: Haddock, S. H. D. and Dunn, C. W. (2010). Practical Computing for Biologists.
 
 Frequently used commands are in the appendices
 
 Required software:
+
 Download and install the following software:
+
 1)	Windows only: UNIX Terminal window emulator
 (Insert link for free Windows terminal emulator here. Is PuTTY ok? Or https://gitforwindows.org/ ?)
+
 2)	Anaconda.  Download and install Anaconda for your operating system.
 https://www.anaconda.com/products/individual
 Run Anaconda and from Anaconda install SPYDER.  SPYDER is a free software program that let’s you type Python scripts, provides error correction and troubleshooting recommendations as you type, and lets you run scripts line by line for testing and debugging, similar to R Studio.  It also serves as a text editor for opening, editing and saving scripts.

@@ -55,7 +55,6 @@ Workshop schedule:
 Part 1 Regular expressions and Shell operations
 
 Week 1, (parentheses indicate time in minutes)
-
 Computer Setup, PCFB Chapter 2 Regular Expressions: Powerful Search & Replace (35 min), Chapter 3 Exploring the Flexibility of Regular Expressions (40)
 Optional, UNIX Shell, Software Carpentry Modules 1-4
 Optional, Git, Software Carpentry Modules 1-9

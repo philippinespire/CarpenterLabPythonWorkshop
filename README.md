@@ -23,7 +23,9 @@ These optional sessions will be delivered to participants on request for:
 UNIX Shell Modules 1-4 (1:45 hours)
 Git Modules 1-9 (2:00 hours)
 The book is: Haddock, S. H. D. and Dunn, C. W. (2010). Practical Computing for Biologists.
+
 Frequently used commands are in the appendices
+
 Required software:
 Download and install the following software:
 1)	Windows only: UNIX Terminal window emulator

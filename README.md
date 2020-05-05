@@ -42,45 +42,67 @@ https://www.python.org/downloads/
 https://git-scm.com/book/en/v2/Getting-Started-Installing-Git
 
 
-Changes to the Workshop: 
+Changes to the Workshop:
+
 We reserve the right to make appropriate changes to the workshop content and schedule.  We will notify participants of changes in a manner that maintains the flow of the workshop.
 
-Conflict resolution: 
-As workshop instructors, we will make every effort to resolve conflicts or difficulties in a timely and fair manner. Issues that cannot be resolved by discussions with us should be brought to the attention of Dr. Kent Carpenter, or his designee. 
+Conflict resolution:
+
+As workshop instructors, we will make every effort to resolve conflicts or difficulties in a timely and fair manner. Issues that cannot be resolved by discussions with us should be brought to the attention of Dr. Kent Carpenter, or his designee.
+
 Workshop schedule:
+
 Part 1 Regular expressions and Shell operations
+
 Week 1, (parentheses indicate time in minutes)
+
 Computer Setup, PCFB Chapter 2 Regular Expressions: Powerful Search & Replace (35 min), Chapter 3 Exploring the Flexibility of Regular Expressions (40)
 Optional, UNIX Shell, Software Carpentry Modules 1-4
 Optional, Git, Software Carpentry Modules 1-9
+
 Part 2 Programming with Python
+
 Week 2
 SC PwP Module 1 Python Fundamentals (30), SC P&PinP Module 2 Variables and Assignment (20), Chapter 7 Components of Programming (25)
+
 Week 3
 Chapter 7 Components of Programming (30), SC P&PinP Module 3 Data Types and Type Conversion (20), Chapter 8 Beginning Python Programming (35)
+
 Week 4
 SC P&PinP Module 4 Built-in Functions and Help (25), SC P&PinP Module 6 Libraries (20), SC PwP Module 4 Repeating Actions with Loops (30)
+
 Week 5
 SC P&PinP Module 12 For Loops (25), Chapter 9 Decisions and Loops (30), SC P&PinP Module 11 Lists (20) 
+
 Week 6
 SC PwP Module 5 Storing Multiple Values in Lists (45), SC PwP Module 7 Making Choices (30)
+
 Week 7
 SC P&PinP Module 13 Conditionals (25), Chapter 10 Reading & Writing files to page 188 (50)
+
 Week 8
 SC PwP Module 8 Creating Functions (30), SC P&PinP Module 16 Writing Functions (25), Chapter 10 Reading & Writing files from page 188 (20)
+
 Week 9
 SC PwP Module 9 Errors and Exceptions (30), SC PwP Module 10 Defensive Programming (40), SC P&PinP Module 17 Variable Scope (20)
+
 Week 10
 Chapter 11 Merging Files (40), Chapter 12 Modules and Libraries (35)
+
 Week 11
 SC PwP Module 11 Debugging (50), Chapter 13 Debugging (25)
+
 Week 12
 Part 3 Group projects “Hackathon”
+
 Week 13
 Group project (75)
+
 Week 14
 Group project (75)
+
 Week 15
 Group project (75)
+
 Week 16
 Group project (75)

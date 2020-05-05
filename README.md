@@ -7,6 +7,7 @@ Facilitators:
 Jemelyn Baldisimo, John Whalen, and Ivan Lopez.  Contact ilopez@odu.edu, cell: 757-748-7922.  Office hours by appointment via Zoom.
 Description:
 This workshop will provide hands-on training to show how to use general computing tools to work more effectively on Carpenter Lab projects. It pulls together a broad range of powerful and flexible tools used for working with large or complex data sets. We will go over text file manipulation with regular expressions, programming in Python, and interaction with remote devices.  The workshop is organized into three parts. The first part will review regular expressions and provide extra sessions during the week for participants who request help with UNIX shell scripting and GitHub.  The second part will review Python programing.  In the third part we will collaborate on two projects that will deliver a benefit to our research efforts.  There are no costs associated with this workshop.
+
 Goals:
 1. Participants will become comfortable using computer science tools and programing techniques to improve data manipulation and analysis.
 2. Participants will be able to perform the following tasks:
@@ -16,7 +17,7 @@ c)	Python programming.
 Workshop materials:
 The websites for this workshop are:
 Dan’s PCFB course.  It has all the course content, instructions, links, the book and super-fun-try-on-your-own exercises. Create a directory named courses/pcfb in your home directory and download this material there.
-Software Carpentry.  This website provides free lessons about many aspects of computing for scientists.  The lessons can be performed as self-guided tutorials.  We will go over the following lessons:
+Software Carpentry. https://software-carpentry.org/lessons/ This website provides free lessons about many aspects of computing for scientists.  The lessons can be performed as self-guided tutorials.  We will go over the following lessons:
 Programming with Python
 Plotting and Programming with Python
 These optional sessions will be delivered to participants on request for:

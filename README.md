@@ -16,7 +16,7 @@ b)	Basic bash scripting
 c)	Python programming.
 Workshop materials:
 The websites for this workshop are:
-Dan’s PCFB course.  It has all the course content, instructions, links, the book and super-fun-try-on-your-own exercises. Create a directory named courses/pcfb in your home directory and download this material there.
+Carpenter Lab Python Git Repository.  It has all the course content, instructions, links, the book and super-fun-try-on-your-own exercises. Create a directory named clpw/ in your home directory and download this material there.
 Software Carpentry. https://software-carpentry.org/lessons/ This website provides free lessons about many aspects of computing for scientists.  The lessons can be performed as self-guided tutorials.  We will go over the following lessons:
 Programming with Python
 Plotting and Programming with Python

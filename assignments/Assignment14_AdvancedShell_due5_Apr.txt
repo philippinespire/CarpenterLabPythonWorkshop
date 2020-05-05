@@ -1,0 +1,16 @@
+Task: Parse the output from your Assign12 output file using bash commands only and tell me:
+a) how many unique dates, times, depths, and vehicles there are in your file
+hint: use tail, cut, uniq, and wc
+
+See below for example output:
+rovCtdDtg	depth	vehicle
+7/19/03 14:07	9.93	tibr
+7/19/03 14:07	10.72	tibr
+7/19/03 14:08	13.4	tibr
+7/19/03 14:08	16.18	tibr
+7/19/03 14:09	18.17	tibr
+7/19/03 14:09	22.14	tibr
+7/19/03 14:10	23.92	tibr
+7/19/03 14:10	27.1	tibr
+
+Submit your commands and output to me as a YourName_Assign14.txt file or screenshot.

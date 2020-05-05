@@ -1,0 +1,7 @@
+1. Navigate to the Documents directory via the command line
+2. make a directory called HW3 inside your Documents directory
+3. copy all of the .txt files from the pcfb examples folder into your HW3 directory with a single command
+4. list the contents of your HW3 directory
+4. navigate to your Documents directory
+5. remove your HW3 directory
+6. submit a screenshot of your terminal session showing all of the assigned steps.

@@ -1,0 +1,13 @@
+Assignment1:
+1. Delete header/extraneous info
+2.find:
+^([\w\s\-\(\?\)\']+),(\w)(\w)(\w+\s+)(\w)(\w)(\w+)[\s\(\?\)]*,.*
+
+replace:
+\2\3\4\5\6\7\t\1\t\2_\5\6\7\t\2\3_\5\6
+
+Assignment2, reorder columns:
+1. find:
+^([^\t]+)\t([^\t]+)\t([^\t]+)\t([^\t]+)$
+replace:
+\3\t\4\t\1\t\2

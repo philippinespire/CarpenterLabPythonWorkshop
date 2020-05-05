@@ -1,0 +1,2 @@
+Task: write a new or modify an old python program to read in a tab delimited text file and write out a subset of the data to a new file using the open() command
+Submit the script to me as yourname_Assign10.py as well as the resulting output of your script and any input entered (in the body of your email)

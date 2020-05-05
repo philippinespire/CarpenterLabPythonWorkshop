@@ -1,0 +1,7 @@
+1. Download/open/git HastingsBirdList_2007.csv from bitbucket/master/src/data
+
+2. Reformat file into the following format using only regular expressions in a text editor (hint: you're still allowed to use highlight and delete to clean up the document, just no excel or R or any other programs):
+Scientific Name\tCommon Name\tGenus_species (1 letter Genus_underscore_species)\t2letter Genus_species code
+Gavia stellata	Red-throated Loon	G_stellata	Ga_st
+
+3. Write down your workflow/search terms in a separate text document and email me the final table and the final workflow document saved as the following YourName_PCfB_Assign1_workflow.txt or YourName_PCfB_Assign1_output.txt

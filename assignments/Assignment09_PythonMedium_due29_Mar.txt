@@ -1,0 +1,8 @@
+Task: write a python program that contains the following:
+a- a list
+b- a dictionary
+c- a for loop
+d- an if statement
+e- a range() calculation
+Submit the script to me as yourname_Assign9.py as well as the resulting output of your script and any input entered (in the body of your email)
+I encourage you to think of a task that might be useful for your research and then add in each one of these elements instead of starting with the elements and building the task

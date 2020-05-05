@@ -1,0 +1,8 @@
+Task: Write a python program that:
+a- takes a string input from the user
+b- returns the:
+	1- length of the string
+	2- percentage (as a 2 decimal float) of "a"'s (either upper or lowercase) in the string using the % string formatting syntax for print statements
+c- add in a "Usage" description in the beginning of the program (script file) that is only visible if you open the .py file in a text editor
+
+Submit the script to me as yourname_Assign7.py as well as the resulting output and the string entered (in the body of your email)

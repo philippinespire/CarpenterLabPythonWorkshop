@@ -1,0 +1,5 @@
+1. Describe the difference between an integer and a floating point number. List an example of each.
+2. List some examples of data types that might be best stored as a list variable, how about a dictionary variable.
+3. What is the first line syntax for a bash script?
+4. What is the character used to delineate a comment line?
+5. What is the difference between = and ==, give an example and explanation of the use of each one.

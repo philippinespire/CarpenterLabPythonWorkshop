@@ -1,0 +1,2 @@
+Task: Log on to the Dokuwiki wiki-page and create your personal page.
+Wiki address is http://128.82.116.111/dokuwiki/doku.php

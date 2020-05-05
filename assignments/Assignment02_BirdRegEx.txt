@@ -1,0 +1,6 @@
+1. Try and pare down your regex search for Assignment 1 to a one or two (max) line operation. Not including the deleting of the info at the top of the table.
+
+2. Reorder the columns to the order with a single expression utilizing the Negation character.
+Genus_species (1 letter Genus_underscore_species)\t2letter Genus_species code\tScientific Name\tCommon Name
+
+4. Write down your workflow/search terms in a separate text document and email me the final table and the final workflow document saved as the following YourName_PCfB_Assign2_workflow.txt or YourName_PCfB_Assign2_output.txt

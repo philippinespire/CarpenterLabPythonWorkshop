@@ -1,0 +1,8 @@
+Note: please copy a set of files (photos, sequences, tab-delimited text files, etc.) into a new directory so you avoid the risk of overwriting/erasing files that you need.
+
+Task: Write a file renaming script that:
+	- takes a list of files as input (using the ls command) and the sys module
+	- renames the files using the os.popen("cp %s %s" %(oldfilename, newfilename)") command in the os module
+	- renames the files uniquely in a for loop
+
+Submit the script to me as well as the input syntax and output (maybe by ls'ing your original file list and your renamed file list).

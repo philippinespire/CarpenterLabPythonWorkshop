@@ -28,7 +28,7 @@ The websites for this workshop are:
 
 Carpenter Lab Python Git Repository.  It has all the course content, instructions, links, the book and super-fun-try-on-your-own exercises. Create a directory named clpw/ in your home directory and download this material there.
 
-Software Carpentry. https://software-carpentry.org/lessons/ This website provides free lessons about many aspects of computing for scientists.  The lessons can be performed as self-guided tutorials.  We will cover some modules from the 'Programming with Python' and 'Plotting and Programming with Python' lessons
+Software Carpentry. https://software-carpentry.org/lessons/ This website provides free lessons about many aspects of computing for scientists.  The lessons can be performed as self-guided tutorials.  We will cover some modules from the 'Programming with Python' and 'Plotting and Programming with Python' lessons.
 
 These optional sessions will be delivered to participants on request for:
 
@@ -50,11 +50,8 @@ Download and install the following software:
 https://www.anaconda.com/products/individual
 Run Anaconda and from Anaconda install SPYDER.  SPYDER is a free software program that let’s you type Python scripts, provides error correction and troubleshooting recommendations as you type, and lets you run scripts line by line for testing and debugging, similar to R Studio.  It also serves as a text editor for opening, editing and saving scripts.
 3)	Text editor.  Download and install the appropriate text editor for your operating system.
-
 Mac OS: BBedit https://www.barebones.com/products/bbedit/
-
 Microsoft Windows: Notepad++ https://notepad-plus-plus.org/
-
 4)	Python3.  Download and install the latest version of Python for your operating system.
 https://www.python.org/downloads/
 5) Git. Download and install the latest version of Git for your operating system.

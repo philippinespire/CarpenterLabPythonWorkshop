@@ -3,9 +3,9 @@ This repository contains the materials for the summer 2020 Carpenter Lab Python 
 
 Carpenter Lab Python Workshop, Summer 2020
 
-Delivered via Zoom link.
+Delivered via Zoom: https://odu.zoom.us/j/6601751038
 
-Times: Day time to time xm; 4 May to 21 August
+Times: Thursday 2:00 pm to 4:00 pm, 14 May to 31 July; additional sessions to 21 August possible.
 
 Facilitators:
 

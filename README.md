@@ -28,11 +28,7 @@ The websites for this workshop are:
 
 Carpenter Lab Python Git Repository.  It has all the course content, instructions, links, the book and super-fun-try-on-your-own exercises. Create a directory named clpw/ in your home directory and download this material there.
 
-Software Carpentry. https://software-carpentry.org/lessons/ This website provides free lessons about many aspects of computing for scientists.  The lessons can be performed as self-guided tutorials.  We will go over the following lessons:
-
-Programming with Python
-
-Plotting and Programming with Python
+Software Carpentry. https://software-carpentry.org/lessons/ This website provides free lessons about many aspects of computing for scientists.  The lessons can be performed as self-guided tutorials.  We will cover some modules from the 'Programming with Python' and 'Plotting and Programming with Python' lessons
 
 These optional sessions will be delivered to participants on request for:
 

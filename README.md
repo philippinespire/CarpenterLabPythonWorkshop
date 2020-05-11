@@ -48,15 +48,14 @@ Required software:
 
 Download and install the following software:
 
-1)	Windows only: UNIX Terminal window emulator
-(Insert link for free Windows terminal emulator here. Is PuTTY ok? Or https://gitforwindows.org/ ?)
+1)	Windows only: UNIX Terminal window emulator, download what best suits you.  There are many free options.  Dr. Wirawan Purwanto likes this one: https://mobaxterm.mobatek.net/download-home-edition.html, but he's a computer scientist.  He also recommends: https://cygwin.com/, which is a "no frills" emulator.
 
 2)	Anaconda.  Download and install Anaconda for your operating system.
 https://www.anaconda.com/products/individual
 Run Anaconda and from Anaconda install SPYDER.  SPYDER is a free software program that let’s you type Python scripts, provides error correction and troubleshooting recommendations as you type, and lets you run scripts line by line for testing and debugging, similar to R Studio.  It also serves as a text editor for opening, editing and saving scripts.
 3)	Text editor.  Download and install the appropriate text editor for your operating system.
-Mac OS: BBedit
-Microsoft Windows: Notepad++
+Mac OS: BBedit https://www.barebones.com/products/bbedit/
+Microsoft Windows: Notepad++ https://notepad-plus-plus.org/
 4)	Python3.  Download and install the latest version of Python for your operating system.
 https://www.python.org/downloads/
 5) Git. Download and install the latest version of Git for your operating system.
@@ -76,53 +75,68 @@ Workshop schedule:
 Part 1 Regular expressions and Shell operations
 
 Week 1, (parentheses indicate time in minutes)
-Computer Setup, PCFB Chapter 2 Regular Expressions: Powerful Search & Replace (35 min), Chapter 3 Exploring the Flexibility of Regular Expressions (40)
-Optional, UNIX Shell, Software Carpentry Modules 1-4
-Optional, Git, Software Carpentry Modules 1-9
+
+Computer Setup, PCFB Chapter 2 Regular Expressions: Powerful Search & Replace (35),
+Chapter 3 Exploring the Flexibility of Regular Expressions (40)
+Optional: UNIX Shell, Software Carpentry Modules 1-4
+Optional: Git, Software Carpentry Modules 1-9
 
 Part 2 Programming with Python
 
 Week 2
-SC PwP Module 1 Python Fundamentals (30), SC P&PinP Module 2 Variables and Assignment (20), Chapter 7 Components of Programming (25)
+
+Chapter 7 Components of Programming (55)
+Otional: SC PwP Module 1 Python Fundamentals (30)
+Optional: SC P&PinP Module 2 Variables and Assignment (20)
 
 Week 3
-Chapter 7 Components of Programming (30), SC P&PinP Module 3 Data Types and Type Conversion (20), Chapter 8 Beginning Python Programming (35)
+
+Chapter 8 Beginning Python Programming (35)
+Optional: SC P&PinP Module 3 Data Types and Type Conversion (20)
 
 Week 4
-SC P&PinP Module 4 Built-in Functions and Help (25), SC P&PinP Module 6 Libraries (20), SC PwP Module 4 Repeating Actions with Loops (30)
+
+Chapter 9 Decisions and Loops (30)
+Optional: SC P&PinP Module 4 Built-in Functions and Help (25)
+Optional: SC PwP Module 4 Repeating Actions with Loops (30)
+Optional: SC P&PinP Module 6 Libraries (20) 
+Optional: SC P&PinP Module 11 Lists (20)
+Optional: SC P&PinP Module 12 For Loops (25)
 
 Week 5
-SC P&PinP Module 12 For Loops (25), Chapter 9 Decisions and Loops (30), SC P&PinP Module 11 Lists (20) 
 
-Week 6
 SC PwP Module 5 Storing Multiple Values in Lists (45), SC PwP Module 7 Making Choices (30)
 
+Week 6
+
+Chapter 10 Reading & Writing files to page 188 (50)
+Optional: SC P&PinP Module 13 Conditionals (25)
+
 Week 7
-SC P&PinP Module 13 Conditionals (25), Chapter 10 Reading & Writing files to page 188 (50)
+
+Chapter 10 Reading & Writing files from page 188 (20)
+Optional: SC PwP Module 8 Creating Functions (30), SC P&PinP Module 16 Writing Functions (25)
 
 Week 8
-SC PwP Module 8 Creating Functions (30), SC P&PinP Module 16 Writing Functions (25), Chapter 10 Reading & Writing files from page 188 (20)
 
-Week 9
-SC PwP Module 9 Errors and Exceptions (30), SC PwP Module 10 Defensive Programming (40), SC P&PinP Module 17 Variable Scope (20)
-
-Week 10
 Chapter 11 Merging Files (40), Chapter 12 Modules and Libraries (35)
 
-Week 11
-SC PwP Module 11 Debugging (50), Chapter 13 Debugging (25)
+Week 9
 
-Week 12
+Chapter 13 Debugging (25) Possible deletion.  Debug = TRUE \n some variable \n if Debug = True \n print(some variable output) 
+
 Part 3 Group projects “Hackathon”
 
-Week 13
+Week 10
+
 Group project (75)
 
-Week 14
+Week 11
+
 Group project (75)
 
-Week 15
+Week 12+ as desired
+
 Group project (75)
 
-Week 16
-Group project (75)
+

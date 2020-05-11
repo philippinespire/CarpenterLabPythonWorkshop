@@ -57,6 +57,7 @@ Microsoft Windows: Notepad++ https://notepad-plus-plus.org/
 
 4)	Python3.  Download and install the latest version of Python for your operating system.
 https://www.python.org/downloads/
+
 5) Git. Download and install the latest version of Git for your operating system.
 https://git-scm.com/book/en/v2/Getting-Started-Installing-Git
 

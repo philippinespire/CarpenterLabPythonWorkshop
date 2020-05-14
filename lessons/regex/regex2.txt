@@ -1,0 +1,9 @@
+Wild cards
+
+open find and replace
+⌘F or CTRL F
+
+Grep - globally search for a regular expression (re) and print
+check Grep and Case sensitive (by default Grep is case sensitive)
+
+\w letters and digits [A-z,0-9] #[0-9] [A-Z] [a-z]

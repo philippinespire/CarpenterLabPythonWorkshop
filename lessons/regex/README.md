@@ -1,4 +1,6 @@
 '''
+Computer Set up
+
 Git clone this repository and initiate version control:
 
 Open a terminal window and enter:

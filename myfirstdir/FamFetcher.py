@@ -69,10 +69,10 @@ StartTime = time.time()
 ScriptName = sys.argv[0]
 LineNumber = 0
 Family = input('Enter the name of the family:')# apogonidae
-InFileName = Family + '.txt'
+RawFileName = Family + 'raw.txt'
 PathName = input('Enter the full pathway for the working directory: ')# /Users/ivanlopez/Desktop/test/
 os.chdir(PathName)
-OutFile = open(InFileName, 'w')
+RawFile = open(RawFileName, 'w')
 Browser = mechanicalsoup.StatefulBrowser()
 Browser.open("http://researcharchive.calacademy.org/research/ichthyology/catalog/fishcatmain.asp")
 Browser.select_form()
@@ -80,28 +80,43 @@ Browser.get_current_form()#.print_summary()
 Browser["contains"] = Family
 Response = Browser.submit_selected()
 Soup = BeautifulSoup(Response.text, 'html.parser')
-OutFile.write(Soup.get_text())
-Lines = open(InFileName).readlines()
-open(InFileName, 'w').writelines(Lines[87:-1])
+RawFile.write(Soup.get_text())
+Lines = open(RawFileName).readlines()
+open(RawFileName, 'w').writelines(Lines[88:-1])
+
+ReadFile = open(RawFileName, 'r')#Open the input file for reading
+TextFileName = Family + '.txt'
+TextFile = open(TextFileName, 'w')
+LineNumber = 0
+Stopper = 'It’s time to start exploring.'
+
+for Line in ReadFile:
+    if not len(Line.strip())==0:
+        TextFile.write(Line)
+        if Line == Stopper:
+            TextFile.close() 
+    LineNumber += 1#adds a row and loops to end
 
 Header = 'Genus\tSpecies\tCurrent Status(Genus Species) Author'
-InFile = open(InFileName, 'r')#Open the input file for reading
 OutcsvName = Family + '.csv'
 Outcsv = open(OutcsvName, 'w')
 Outcsv.write(Header + '\n')
+RowNumber = 0
+LastFile = open(TextFileName, 'r')
 
-for Line in InFile: #Loop through each line in the file
-    if LineNumber > 0: #skip header
-        SLine = Line.strip('\n') # remove end of line
-        ElementList = SLine.split()
-        ElementLine = StatusFinder(ElementList[0])
-        OutputString = "%s" %(ElementLine)#complies the line
-        OutFile.write(OutputString+'\n')#Writes the line to the file
-    LineNumber += 2#adds a row and loops to end
+for Row in LastFile: #Loop through each line in the file
+    if RowNumber > 0: #skip header
+        Row = Row.strip('\n') # remove end of line
+        ElementBase = Row.split()
+        ElementRow = StatusFinder(ElementBase)
+        OutputString = "%s" %(ElementRow)#complies the line
+        Outcsv.write(OutputString+'\n')#Writes the line to the file
+    LineNumber += 1#adds a row and loops to end
 
-InFile.close() #close the files after the loop
-OutFile.close()
+ReadFile.close()
+LastFile.close() #close the files after the loop
 Outcsv.close()
-os.remove(InFileName)
+#os.remove(RawFileName)
+#os.remove(TextFileName)
 sys.stderr.write("I have finished this script") #: %s\n" % ScriptName)
 print('Elapsed: %.5f' %(time.time() - StartTime))

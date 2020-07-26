@@ -5,13 +5,14 @@ Ctf-8,oding: u end of line character is \n, one indent is 4 spaces
 Created on Mon Jul 13 12:57:47 2020
 Script purpose: FamFetcher.py. Retrieves all the species listed in a fish family from the Califorina Academy
 of sciences and compiles the species into a csv file. 
-Version 1.0
+Version 1.01
 @author: Iván Raúl López Martínez
 Usage:
 	FamFetcher.py
 """
 import mechanicalsoup, re, os, sys, time
 from bs4 import BeautifulSoup
+from datetime import date
 
 def AuthorCorrector(AuthorGroup):
     AuthorStr = 'BÃ'
@@ -269,6 +270,8 @@ LineNumber = 0
 Family = input('Enter the name of the family:')# apogonidae
 PathName = input('Enter the full pathway for the working directory: ')# /Users/ivanlopez/Desktop/test/
 StartTime = time.time()
+Today = date.today()
+Day = Today.strftime('%b-%d-%Y')
 os.chdir(PathName)
 RawFileName = Family + 'raw.txt'
 RawFile = open(RawFileName, 'w')
@@ -284,7 +287,7 @@ Lines = open(RawFileName).readlines()
 open(RawFileName, 'w').writelines(Lines[87:-1])
 
 Header = 'Genus\tSpecies\tCurrent Status(Genus Species)\tAuthor'
-OutcsvName = Family + '.csv'
+OutcsvName = Family + Day + '.csv'
 Outcsv = open(OutcsvName, 'w')
 Outcsv.write(Header + '\n')
 RowNumber = 0
